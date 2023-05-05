@@ -6,9 +6,16 @@ require 'rails_helper'
 
 RSpec.describe 'songs show page' do
     it 'displays the song title' do
-        song = Song.create(title: 'Cada dia', length: 27348, play_count: 29544)
+        artist = Artist.create(name: 'The Beatles')
+        song = Song.create(title: 'And i love her', length: 27348, play_count: 29544)
+        song_2 = Song.create(title: 'Yesterday', length: 193866, play_count: 99922)
         
         visit "/songs/#{song.id}"
+        # expect(page).to have_content(song.title)
+        # expect(page).to have_content(song.artist)
+
+        # expect(page).to_not have_content(song_2.title)
+        # expect(page).to_not have_content(song_2.artist)
 
     end
 
