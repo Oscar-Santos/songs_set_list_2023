@@ -1,0 +1,2 @@
+class CreateSong < ApplicationRecord
+end
