@@ -18,13 +18,13 @@ RSpec.describe 'songs show page' do
 
     end
 
-    # it 'displays the name of the artist for the song' do
-    #     artist = Artist.create!(name: 'The Beatles')
-    #     song = artist.songs.create!(title: 'And i love her', length: 27348, play_count: 29544)
-    #     song_2 = artist.songs.create!(title: 'Yesterday', length: 193866, play_count: 99922)
+    it 'displays the name of the artist for the song' do
+        artist = Artist.create!(name: 'The Beatles')
+        song = artist.songs.create!(title: 'And i love her', length: 27348, play_count: 29544)
+        song_2 = artist.songs.create!(title: 'Yesterday', length: 193866, play_count: 99922)
 
-    #     visit "/songs/#{song.id}"
+        visit "/songs/#{song.id}"
 
-    #     expect(page).to have_content(artist.name)
-    # end
+        expect(page).to have_content(artist.name)
+    end
 end
