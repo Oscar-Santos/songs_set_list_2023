@@ -1,1 +1,8 @@
 <h1> SONGS OF LUIS MIGUEL <h1>
+
+<% @songs.each do |song| %>
+    <br>
+   <h3>TITLE: <p><%= song.title %>  </p> </h3>
+   <h3>LENGTH: <p><%= song.length %>  </p> </h3>
+   <h3>PLAY_COUNT: <p><%= song.play_count %>  </p> </h3>  
+<% end %>
