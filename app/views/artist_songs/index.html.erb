@@ -4,4 +4,4 @@
  <h3> TITLE OF THE SONG:   <%= link_to song.title, "/songs/#{song.id}" %> </h3>
 <% end %>
 
-<p> Average song length for <%= @artist.name %>: </p>
+<p>Average Song Length for <%= @artist.name %>: <%= @artist.average_song_length %> </p>

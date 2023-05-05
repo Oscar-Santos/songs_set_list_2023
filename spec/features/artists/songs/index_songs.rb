@@ -38,6 +38,6 @@ RSpec.describe 'Artists songs index page' do
 
         visit "/artists/#{artist.id}/songs"
 
-        expect(page).to have_content('Average Song Length for Artist: 110607')
+        expect(page).to have_content('Average Song Length for The Beatles: 110607')
     end
 end
