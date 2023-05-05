@@ -232,8 +232,48 @@
           1,
           null
         ]
+      },
+      "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/app/models/artist.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/app/models/song.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/app/controllers/songs_controller.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1683300327
+    "timestamp": 1683302067
   }
 }
