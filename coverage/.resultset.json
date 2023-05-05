@@ -241,7 +241,11 @@
           1,
           null,
           1,
-          4,
+          1,
+          null,
+          null,
+          1,
+          1,
           null,
           null
         ]
@@ -259,37 +263,8 @@
           1,
           null
         ]
-      },
-      "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/app/controllers/artist_songs_controller.rb": {
-        "lines": [
-          1,
-          1,
-          4,
-          4,
-          null,
-          null
-        ]
-      },
-      "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/app/controllers/songs_controller.rb": {
-        "lines": [
-          1,
-          1,
-          0,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1683318949
+    "timestamp": 1683319827
   }
 }
