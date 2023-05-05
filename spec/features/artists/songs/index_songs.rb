@@ -18,5 +18,26 @@ RSpec.describe 'Artists songs index page' do
 
     end
 
-    it 'links to each songs show page'
+    it 'links to each songs show page' do
+        artist = Artist.create!(name: 'The Beatles')
+        song = artist.songs.create!(title: 'And i love her', length: 27348, play_count: 29544)
+        song_2 = artist.songs.create!(title: 'Yesterday', length: 193866, play_count: 99922)
+
+        visit "/artists/#{artist.id}/songs"
+
+        click_on song.title
+
+        expect(current_path).to eq("/songs/#{song.id}")
+
+    end
+
+    it 'shows the average song length fir the artist' do
+        artist = Artist.create!(name: 'The Beatles')
+        song = artist.songs.create!(title: 'And i love her', length: 27348, play_count: 29544)
+        song_2 = artist.songs.create!(title: 'Yesterday', length: 193866, play_count: 99922)
+
+        visit "/artists/#{artist.id}/songs"
+
+        expect(page).to have_content('Average Song Length for Artist: 110607')
+    end
 end

@@ -1,5 +1,5 @@
 <h1>LIST OF SONGS OF AN ARTIST </h1>
 
 <% @songs.each do |song| %>
- <h3> TITLE OF THE SONG:   <%= song.title %> </h3>
+ <h3> TITLE OF THE SONG:   <%= link_to song.title, "/songs/#{song.id}" %> </h3>
 <% end %>
