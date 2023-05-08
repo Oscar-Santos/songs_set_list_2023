@@ -22,8 +22,8 @@ RSpec.describe '#create_artist' do
 
         fill_in 'Name', with: 'Luis Miguel'
         click_button('Create Artist')
-        new_artist_id = Artist.last.id
-        expect(current_path).to eq("/artists/#{new_artist_id}")
+        
+        expect(current_path).to eq("/artists")
         expect(page).to have_content('Luis Miguel')
 
     end
