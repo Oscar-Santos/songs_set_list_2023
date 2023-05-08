@@ -12,6 +12,10 @@ class ArtistsController < ApplicationController
        redirect_to "/artists"
     end
 
+    def edit
+
+    end
+
     def artist_params
         params.permit(:name)
     end

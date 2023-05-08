@@ -17,6 +17,6 @@ RSpec.describe '#edit_artist' do
 
         click_button "Edit #{artist.name}"
 
-        expect(current_path).to eq("/artists/#{artist.id}")
+        expect(current_path).to eq("/artists/#{artist.id}/edit")
     end
 end
