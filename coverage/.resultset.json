@@ -236,8 +236,23 @@
           1,
           null
         ]
+      },
+      "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/app/controllers/artists_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1683556495
+    "timestamp": 1683556652
   }
 }
