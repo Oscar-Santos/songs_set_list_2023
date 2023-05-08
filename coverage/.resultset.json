@@ -244,116 +244,17 @@
           null
         ]
       },
-      "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/spec/features/artists/new_spec.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/spec/features/songs/show_spec.rb": {
-        "lines": [
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/spec/models/artist_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          2,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
       "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/app/models/artist.rb": {
         "lines": [
           1,
           1,
           null,
           1,
-          1,
+          0,
           null,
           null,
           1,
-          1,
+          0,
           null,
           null
         ]
@@ -365,50 +266,35 @@
           null
         ]
       },
-      "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/spec/models/song_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          2,
-          null
-        ]
-      },
-      "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/app/models/song.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
       "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/app/controllers/artists_controller.rb": {
         "lines": [
           1,
           1,
-          5,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
           1,
           null,
           null,
           1,
-          2,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
           null,
           null,
           1,
           1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          2,
+          0,
           null,
           null
         ]
@@ -418,21 +304,8 @@
           1,
           null
         ]
-      },
-      "/Users/oscarsantos/re_repaso/mod_2/songs_set_list_2023/app/controllers/songs_controller.rb": {
-        "lines": [
-          1,
-          1,
-          0,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1683588677
+    "timestamp": 1683589819
   }
 }
