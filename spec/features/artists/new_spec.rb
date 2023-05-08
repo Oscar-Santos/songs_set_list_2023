@@ -16,4 +16,15 @@ RSpec.describe '#create_artist' do
 
         expect(current_path).to eq('/artists/new')
     end
+
+    it 'can create a new  artist' do
+        visit '/artists/new'
+
+        fill_in 'Name', with: 'Luis Miguel'
+        click_button('Create Artist')
+        new_artist_id = Artist.last.id
+        expect(current_path).to eq("/artists/#{new_artist_id}")
+        expect(page).to have_content('Luis Miguel')
+
+    end
 end
