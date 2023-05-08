@@ -13,4 +13,5 @@ Rails.application.routes.draw do
 
   post '/artists', to: 'artists#create'
   
+  get '/artists/:id/edit', to: 'artists#edit'
 end
