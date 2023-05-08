@@ -33,7 +33,7 @@ RSpec.describe '#edit_artist' do
 
         click_button 'Update Artist'
 
-        expect(current_path).to eq("/artists/")
+        expect(current_path).to eq("/artists")
         expect(page).to have_content('Luis miguel')
     end
 end
